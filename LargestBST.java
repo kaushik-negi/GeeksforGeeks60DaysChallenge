@@ -28,6 +28,6 @@ public class LargestBST {
             return new NodeValue(Math.min(root.data, left.minNode),Math.max(root.data, right.maxNode),left.maxSize+right.maxSize+1);
         }
 
-        return new NodeValue(Integer.MIN_VALUE,Integer.MAX_VALUE,Math.max(left.maxSize, right.maxSize);
+        return new NodeValue(Integer.MIN_VALUE,Integer.MAX_VALUE,Math.max(left.maxSize, right.maxSize));
     }
 }
