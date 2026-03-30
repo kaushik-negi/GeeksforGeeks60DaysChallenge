@@ -39,6 +39,4 @@ public class ChoclatePickup {
         int current = (j == y)?grid[i][j] : grid[i][j] + grid[i][y];
         return dp[i][j][y] = current + maxi;
     }
-
-
 }
